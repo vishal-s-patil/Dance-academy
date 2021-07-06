@@ -1,0 +1,32 @@
+extends base.pug
+block style
+    style 
+        include ../files/style.css
+block sctipt 
+    script 
+        include ../files/main.js
+block content
+    nav#navbar 
+            ul 
+                li #[a(href = "/" ) Home]
+                li #[a(href = "/" ) About]
+                li #[a(href = "/" ) Services]
+                li #[a(href = "/register" ) Register]
+    section#introsection 
+        img(src="bg.png")
+
+        p#one Dance, the movement of the body in a rhythmic way, usually to music and within a given space, for the purpose of expressing an idea or emotion, releasing energy, or simply taking delight in the movement itself.
+
+        p#two Dance is a powerful impulse, but the art of dance is that impulse channeled by skillful performers into something that becomes intensely expressive and that may delight spectators who feel no wish to dance themselves. These two concepts of the art of dance—dance as a powerful impulse and dance as a skillfully choreographed art practiced largely by a professional few—are the two most important connecting ideas running through any consideration of the subject. In dance, the connection between the two concepts is stronger than in some other arts, and neither can exist without the other.
+
+    section#missionsection 
+        .container 
+            .box  
+                img(src="bg1.png")
+                p Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet accusamus iusto excepturi sapiente possimus ad veniam, ipsum perspiciatis quas debitis veritatis dolore facilis! Iure quos tenetur doloremque atque maxime velit.
+            .box   
+                img(src="bg2.png")
+                p Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis ducimus, necessitatibus, nemo libero dicta at voluptas recusandae quaerat nesciunt porro, autem eum corporis quam dolorum voluptatibus? Rerum dignissimos laudantium necessitatibus. 
+            .box   
+                img(src="bg3.gif")
+                p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet soluta hic ut reprehenderit voluptatibus praesentium alias similique quibusdam deserunt nemo, placeat officia tempora ad eaque! Mollitia esse doloremque commodi in!
